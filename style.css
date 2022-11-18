@@ -1,0 +1,30 @@
+:root{
+    --primeira-cor: #04E762;
+    --segunda-cor: #008BF8;
+
+    --borda: #89FC00;
+
+    --fundo: #F5B700;
+    --text: #462255
+}
+
+* {
+    margin: 0;
+    pedding: 0;
+}
+
+    body {
+        background-color: var(--fundo);
+        color: var(--text);
+        font: size: 30px;
+    }
+
+    h1 {
+        color:  var(--primeira-cor);
+    }
+
+    .conteudo {
+        display: flex;
+
+        height: 200px;
+    }
